@@ -1,5 +1,5 @@
-# Algorithms
-Codes available for various standard algorithms
+# Graph Algorithms
+Codes available for various standard graph algorithms
 
 ==> degree.cpp finds degree of vertices for a given undirected graph
 
