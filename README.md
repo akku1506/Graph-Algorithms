@@ -1,7 +1,8 @@
 # Graph Algorithms
 Codes available for various standard graph algorithms
 
-==> degree.cpp finds degree of vertices for a given undirected graph
+## degree.cpp
+It finds degree of vertices for a given undirected graph
 
 Program take as input a text file which contains the input graph with the format shown as below. Output of the program should be degrees of all the vertices of the input graph as shown below.
 	
@@ -40,7 +41,9 @@ It contains the ID’s of vertices, along with their respective degree in each l
 
 		./vertexDegree.out input.txt output.txt	
 
-==> path.cpp solves path existence problem in graph.
+## path.cpp 
+
+It solves path existence problem in graph.
 
 Program take as input a text file which contains the directed graph as input in the format as specified in the above question except that in this case the last line of input file contains the path whose existence is to be ascertained. Your program should ascertain whether the path specified in the last line of input file exist in the input graph or not.
 	
@@ -70,7 +73,9 @@ It represents a directed graph with six (4) vertices specified in first line. Th
 	./pathExists.out input.txt output.txt	
 
 
-==> connectedComponents.cpp finds connected components of a given undirected graph
+## connectedComponents.cpp 
+
+It finds connected components of a given undirected graph
 
 Your program should take as input an input file which contains the input undirected graph. Program should output the connected components, each on separate line with vertices of connected component separated with comma.
 
@@ -100,7 +105,9 @@ In the output file above obtained from input file above, there are three connect
 
 		./connectedComponents.out input.txt output.txt
 
-==> dfs.cpp does depth first search on the graph
+## dfs.cpp 
+
+It does depth first search on the graph
 
 Program that takes a graph as input and outputs the vertices in the order in which they are discovered for the first time (discovery time when vertex becomes grey from white) when DFS is applied.
 
