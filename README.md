@@ -134,3 +134,37 @@ Note: The vertices in adjacency list should be sorted with respect to their vert
 		It assumes that your program is compiled into dfs.out executable and takes input.txt file as input and output.txt file as output.
 
 		./dfs.out input.txt output.txt
+## kruskal.cpp
+
+It finds MST of a given graph using Kruskal’s algorithm.
+
+Program take as input a text file which contains the weighted graph as input. Output of the program should be edges that part of MST, output each edge as it gets selected to be part of MST on a separate line.
+
+	eg.
+		Input file (input.txt)
+
+		5,u
+		a,b,c,d,e
+		a,b,4
+		b,c,8
+		c,d,2
+		d,e,7
+		b,e,11
+		e,a,6
+
+First edge is from vertex a to b with weight 4 and so on ....
+
+		Output file (output.txt)
+		c,d
+		a,b
+		e,a
+		d,e
+
+It contains the edges that are part of MST, each edge on a separate line as it gets selected. 
+Note: Carefully observe the order of vertices mentioned in the edge in output file is the same as mentioned in the input file.
+		
+
+	Sample Run: 
+		It assumes that your program is compiled into kruskalMST.out executable and takes input.txt file as input and output.txt file as output.
+
+		./kruskalMST.out input.txt output.txt		 	
