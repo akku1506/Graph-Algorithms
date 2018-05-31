@@ -60,7 +60,7 @@ It contains 1 if path exists or 0 if it doesn’t exist.
 1
 
 	Sample Run: 
-		It assumes that your program is compiled into pathExists.out executable and 		takes input.txt file as input and output.txt file as output.
+		It assumes that your program is compiled into pathExists.out executable and takes input.txt file as input and output.txt file as output.
 
 	./pathExists.out input.txt output.txt	
 
